@@ -1,4 +1,4 @@
-FROM        amazoncorretto
+FROM        amazoncorretto:17
 RUN         mkdir /app
 WORKDIR     /app
 COPY        shipping.jar .
